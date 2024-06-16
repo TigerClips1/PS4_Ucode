@@ -8,5 +8,5 @@ This is the firmware that being use in the ps4 only linux  distro or lfs the pro
 4. sudo make install-xz
 5. Done
 
-#Thanks for reading 
+# Thanks for reading 
 
