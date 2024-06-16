@@ -6,7 +6,9 @@ This is the firmware that being use in the ps4 only linux  distro or lfs the pro
 2. tar -xvzf ps4-ucode.tar.gz
 3. cd linux-firmware-20240610
 4. sudo make install-xz
-5. Done
+5. you also have to cd amdgpu in the linux firmware folder then run xz -z liverpool* since the make install script will excluide the ps4 liverpool firmware file do the samething in  the radeon folder xz -z LIVERPOOL* liverpool*
+6. mv LIVERPOOL* liverpool*
+7. Done
 
 # Thanks for reading 
 
